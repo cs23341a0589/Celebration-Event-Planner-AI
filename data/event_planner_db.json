@@ -1,0 +1,1051 @@
+{
+  "users": {
+    "demo-user-1": {
+      "id": "demo-user-1",
+      "email": "demo@celebrationplanner.ai",
+      "name": "Aanya Sharma",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80",
+      "phone": "+91 98765 43210",
+      "createdAt": "2026-10-30T16:30:16.459Z"
+    },
+    "user-1793378037227-dexb": {
+      "id": "user-1793378037227-dexb",
+      "email": "grandh@gmail.com",
+      "name": "rohit",
+      "avatarUrl": "https://api.dicebear.com/7.x/initials/svg?seed=rohit",
+      "createdAt": "2026-10-30T16:33:57.227Z"
+    }
+  },
+  "events": {
+    "event-royal-wedding": {
+      "id": "event-royal-wedding",
+      "userId": "demo-user-1",
+      "name": "Priya & Rohan's Royal Palace Wedding",
+      "category": "Wedding",
+      "date": "2026-11-28",
+      "time": "18:00",
+      "location": "The Grand Heritage Palace & Lawns, Udaipur",
+      "guestCount": 250,
+      "totalBudget": 450000,
+      "preferredTheme": "Royal Rajputana Crimson & Gold",
+      "duration": "3 Days / 2 Nights",
+      "specialRequirements": "Traditional Shehnai arrival, sustainable floral decor, drone coverage",
+      "foodPreferences": "Royal Rajasthani Thali, Chaat counter, Global Asian wok",
+      "decorationPreferences": "Marigold chandeliers, vintage brass lanterns, palace facade wash",
+      "status": "planning",
+      "createdAt": "2026-10-16T16:30:16.460Z",
+      "updatedAt": "2026-10-30T16:30:16.460Z"
+    },
+    "event-superhero-birthday": {
+      "id": "event-superhero-birthday",
+      "userId": "demo-user-1",
+      "name": "Vivaan's 10th Superhero Birthday Fiesta",
+      "category": "Birthday",
+      "date": "2026-11-15",
+      "time": "16:30",
+      "location": "SkyZone Adventure Hub & Party Terrace, Mumbai",
+      "guestCount": 45,
+      "totalBudget": 85000,
+      "preferredTheme": "Avengers Cosmic Academy",
+      "duration": "4 Hours",
+      "specialRequirements": "Custom 3D superhero cake, interactive treasure quest, magician",
+      "foodPreferences": "Kids favorites: Artisanal pizzas, sliders, nachos, waffle bar",
+      "decorationPreferences": "Comic-style pop art cutouts, helium balloons, LED neon signage",
+      "status": "planning",
+      "createdAt": "2026-10-23T16:30:16.460Z",
+      "updatedAt": "2026-10-30T16:30:16.460Z"
+    },
+    "evt-user-1793378037227-dexb-wedding": {
+      "id": "evt-user-1793378037227-dexb-wedding",
+      "userId": "user-1793378037227-dexb",
+      "name": "Grand Royal Celebration & Wedding",
+      "category": "Wedding",
+      "date": "2026-11-28",
+      "time": "18:00",
+      "location": "The Grand Heritage Palace & Lawns, Udaipur",
+      "guestCount": 200,
+      "totalBudget": 450000,
+      "preferredTheme": "Royal Rajputana Crimson & Gold Splendor",
+      "duration": "3 Days / 2 Nights",
+      "specialRequirements": "Traditional Shehnai arrival, sustainable floral decor, drone coverage",
+      "foodPreferences": "Royal Rajasthani Thali, Chaat counter, Global Asian wok",
+      "decorationPreferences": "Marigold chandeliers, vintage brass lanterns, palace facade wash",
+      "status": "planning",
+      "createdAt": "2026-10-30T16:43:12.455Z",
+      "updatedAt": "2026-10-30T16:43:12.455Z"
+    }
+  },
+  "plans": {
+    "event-royal-wedding": {
+      "id": "plan-wedding-1",
+      "eventId": "event-royal-wedding",
+      "userId": "demo-user-1",
+      "overview": "A regal 3-day royal celebration inspired by Rajputana architecture, combining majestic palace courtyards with warm, opulent hospitality and sustainable floral artistry.",
+      "recommendedTheme": "Royal Rajputana Crimson & Gold Splendor",
+      "colorPalette": [
+        "#8B0000",
+        "#FFD700",
+        "#E6C280",
+        "#2E1A47"
+      ],
+      "decorationIdeas": [
+        "Palace gate archway embellished with cascading fragrant marigolds & tuberoses",
+        "Hand-beaten brass urns with floating water lilies along the lakeside walkway",
+        "Royal Mandap with handcrafted rose-gold pillars overlooking the lake at sunset",
+        "Custom royal motif gobo projections across heritage sandstone walls"
+      ],
+      "venueSuggestions": {
+        "criteria": "Grand ballroom + open-air poolside lawn for 250+ guests with heritage acoustics",
+        "recommendedTypes": [
+          "Heritage Fort / Palace Resort",
+          "Lakeside Luxury Haveli"
+        ],
+        "tips": "Ensure dedicated generator backup for stage sound and check local sound curfews (10:00 PM cutoff)."
+      },
+      "cateringRecommendations": {
+        "menuStyle": "Royal Feast Buffet with Live Specialty Stations",
+        "suggestedItems": [
+          "Kesariya Thandai & Smoked Kokum Welcome Spritz",
+          "Truffle Paneer Tikka & Galouti Kebabs",
+          "Dal Baati Churma in traditional terracotta bowls",
+          "Baked Malpua with Rabdi Gelato"
+        ],
+        "dietaryNotes": "Strict Jain counter requested; distinct vegan and gluten-free items labeled clearly."
+      },
+      "entertainmentIdeas": [
+        "Traditional Manganiyar folk ensemble with soulful morchang & dholak for guest arrival",
+        "Grand Sangeet choreography with synchronized LED screen graphics",
+        "Celebrity DJ set for late night after-party inside soundproof ballroom"
+      ],
+      "photographyRequirements": [
+        "Sunset couple portraits by the lake palace bastion",
+        "Cinematic 4K drone overhead of Barat procession",
+        "Candid instant photo booth for guests with custom royal frames"
+      ],
+      "budgetDistribution": [
+        {
+          "category": "Venue & Hospitality",
+          "percentage": 28,
+          "amount": 126000,
+          "notes": "Palace lawn rental, rooms for VIPs"
+        },
+        {
+          "category": "Catering & Bar",
+          "percentage": 30,
+          "amount": 135000,
+          "notes": "250 guests across 3 major meal services"
+        },
+        {
+          "category": "Decoration & Flowers",
+          "percentage": 16,
+          "amount": 72000,
+          "notes": "Mandap, fairy lights, floral chandeliers"
+        },
+        {
+          "category": "Photography & Cinema",
+          "percentage": 11,
+          "amount": 49500,
+          "notes": "3 camera team + drone + edit album"
+        },
+        {
+          "category": "Entertainment & DJ",
+          "percentage": 7,
+          "amount": 31500,
+          "notes": "Sound setup, folk artists, lighting console"
+        },
+        {
+          "category": "Invitations & Gifts",
+          "percentage": 4,
+          "amount": 18000,
+          "notes": "Bespoke gift boxes with artisan sweets"
+        },
+        {
+          "category": "Miscellaneous Contingency",
+          "percentage": 4,
+          "amount": 18000,
+          "notes": "Emergency permissions & transport"
+        }
+      ],
+      "vendorChecklist": [
+        {
+          "category": "Venue",
+          "items": [
+            "Sign banquet contract",
+            "Confirm vendor access timing"
+          ],
+          "priority": "Essential"
+        },
+        {
+          "category": "Catering",
+          "items": [
+            "Finalize menu tasting",
+            "Confirm bar license & glassware"
+          ],
+          "priority": "Essential"
+        },
+        {
+          "category": "Decor",
+          "items": [
+            "Approve 3D Mandap mockup",
+            "Finalize floral color palette"
+          ],
+          "priority": "Essential"
+        },
+        {
+          "category": "Photography",
+          "items": [
+            "Share family VIP shotlist",
+            "Book accommodation for crew"
+          ],
+          "priority": "Recommended"
+        }
+      ],
+      "guestManagementSuggestions": [
+        "Create WhatsApp broadcast group for real-time bus and event schedule updates",
+        "Set up an arrival hospitality desk with luggage tags and cold wet towels",
+        "Provide RSVP follow-up links via automated WhatsApp reminder 20 days prior"
+      ],
+      "createdAt": "2026-10-30T16:30:16.460Z",
+      "updatedAt": "2026-10-30T16:30:16.460Z"
+    },
+    "evt-user-1793378037227-dexb-wedding": {
+      "id": "plan-1793378625116",
+      "eventId": "evt-user-1793378037227-dexb-wedding",
+      "userId": "user-1793378037227-dexb",
+      "overview": "A breathtaking three-day royal wedding at the Grand Heritage Palace, Udaipur, blending Rajputana majesty with sustainable luxury. Guests will experience a regal journey defined by the haunting melodies of traditional Shehnai, opulent crimson-and-gold aesthetics, and culinary excellence spanning local heritage and global flavors.",
+      "recommendedTheme": "Royal Rajputana Crimson & Gold Splendor",
+      "colorPalette": [
+        "#DC143C",
+        "#FFD700",
+        "#8B0000",
+        "#F5F5DC"
+      ],
+      "decorationIdeas": [
+        "A grand entrance arch adorned with live marigold strings, brass urli bowls, and a live Shehnai performer podium.",
+        "Table settings featuring vintage brass lanterns surrounded by local marigold chandeliers and sustainable eco-friendly jute runners.",
+        "A hand-carved, ornate backdrop for the main stage using recycled velvet fabrics and sustainable floral panels inspired by Mewari architecture.",
+        "Strategic warm LED wash lighting on the palace facade, complemented by thousands of flickering fairy lights and brass floor lamps to create a 'glow from within' effect."
+      ],
+      "venueSuggestions": {
+        "criteria": "Proximity to the city center, availability of royal heritage architecture, and capacity for both indoor and expansive outdoor lawn events.",
+        "recommendedTypes": [
+          "Heritage Palace Courtyard",
+          "Lakeside Banquet Lawn"
+        ],
+        "tips": "Ensure the venue has a dedicated 'Baraat' path that allows for drone takeoff and landing without obstructing the historical facade; check local noise ordinances for outdoor sound."
+      },
+      "cateringRecommendations": {
+        "menuStyle": "Live Gourmet Stations & Heritage Royal Thali Buffet",
+        "suggestedItems": [
+          "Kesar Badam Milk",
+          "Rajasthani Pyaaz Kachori with spicy chutneys",
+          "Traditional Laal Maas and Ker Sangri",
+          "Malai Ghevar with Rabri"
+        ],
+        "dietaryNotes": "Categorize food stations clearly by allergen tags; provide a dedicated 'Vegan & Gluten-Free' section within the Global Asian Wok station to ensure inclusivity."
+      },
+      "entertainmentIdeas": [
+        "Traditional Langa Manganiyar folk musicians followed by a professional DJ blending Sufi beats with modern dance tracks.",
+        "A 'Royal Portrait' station with a vintage prop-filled backdrop and instant polaroid printing for guest keepsakes.",
+        "A synchronized drone light show over the palace facade to mark the peak wedding ceremony moment."
+      ],
+      "photographyRequirements": [
+        "Mandatory shots: Aerial drone sweeping shots of the palace, close-ups of henna patterns, and group portraits at the main entrance.",
+        "Candid coverage: Natural, unposed moments during rituals; 15-minute cinematic drone fly-through at twilight.",
+        "Golden hour timing: Schedule portraits between 4:30 PM and 5:30 PM for the perfect soft, natural light against the sandstone architecture."
+      ],
+      "budgetDistribution": [
+        {
+          "category": "Venue & Hospitality",
+          "percentage": 25,
+          "amount": 112500,
+          "notes": "Rental, power backup, security"
+        },
+        {
+          "category": "Catering & Beverages",
+          "percentage": 30,
+          "amount": 135000,
+          "notes": "Full-course dinner, live counters, service staff"
+        },
+        {
+          "category": "Decoration & Floral",
+          "percentage": 15,
+          "amount": 67500,
+          "notes": "Stage, entrance arches, lighting"
+        },
+        {
+          "category": "Photography & Video",
+          "percentage": 10,
+          "amount": 45000,
+          "notes": "Candid photographer, cinematic teaser"
+        },
+        {
+          "category": "Entertainment & DJ",
+          "percentage": 8,
+          "amount": 36000,
+          "notes": "Sound system, artists, MC"
+        },
+        {
+          "category": "Invitations & Favors",
+          "percentage": 4,
+          "amount": 18000,
+          "notes": "Digital invites, customized guest gifts"
+        },
+        {
+          "category": "Miscellaneous & Buffer",
+          "percentage": 8,
+          "amount": 36000,
+          "notes": "Contingency reserve for unexpected costs"
+        }
+      ],
+      "vendorChecklist": [
+        {
+          "category": "Venue",
+          "items": [
+            "Book venue contract",
+            "Inspect sound limits"
+          ],
+          "priority": "Essential"
+        },
+        {
+          "category": "Catering",
+          "items": [
+            "Tasting session",
+            "Finalize menu count"
+          ],
+          "priority": "Essential"
+        },
+        {
+          "category": "Decor",
+          "items": [
+            "Finalize 3D stage layout",
+            "Floral sourcing review"
+          ],
+          "priority": "Recommended"
+        },
+        {
+          "category": "Photography",
+          "items": [
+            "Discuss shot list",
+            "Book crew travel"
+          ],
+          "priority": "Essential"
+        }
+      ],
+      "guestManagementSuggestions": [
+        "Send digital RSVP links 8 weeks prior with dietary restriction fields.",
+        "Implement a 'Welcome Desk' for immediate hotel check-in and luggage assistance upon arrival.",
+        "Provide golf cart shuttles for elderly guests to move between lawn and palace areas."
+      ],
+      "createdAt": "2026-10-30T16:43:45.116Z",
+      "updatedAt": "2026-10-30T16:43:45.116Z"
+    }
+  },
+  "budgetCategories": {
+    "event-royal-wedding": [
+      {
+        "id": "bc-1",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Venue & Hospitality",
+        "allocatedAmount": 126000
+      },
+      {
+        "id": "bc-2",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Catering & Bar",
+        "allocatedAmount": 135000
+      },
+      {
+        "id": "bc-3",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Decoration & Flowers",
+        "allocatedAmount": 72000
+      },
+      {
+        "id": "bc-4",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Photography & Cinema",
+        "allocatedAmount": 49500
+      },
+      {
+        "id": "bc-5",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Entertainment & DJ",
+        "allocatedAmount": 31500
+      },
+      {
+        "id": "bc-6",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Invitations & Gifts",
+        "allocatedAmount": 18000
+      },
+      {
+        "id": "bc-7",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "category": "Miscellaneous Contingency",
+        "allocatedAmount": 18000
+      }
+    ],
+    "event-superhero-birthday": [
+      {
+        "id": "bc-b1",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "category": "Venue & Games",
+        "allocatedAmount": 30000
+      },
+      {
+        "id": "bc-b2",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "category": "Catering & Cake",
+        "allocatedAmount": 25000
+      },
+      {
+        "id": "bc-b3",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "category": "Theme Decor & Balloons",
+        "allocatedAmount": 15000
+      },
+      {
+        "id": "bc-b4",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "category": "Entertainment & Games Host",
+        "allocatedAmount": 10000
+      },
+      {
+        "id": "bc-b5",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "category": "Return Gifts & Favors",
+        "allocatedAmount": 5000
+      }
+    ],
+    "evt-user-1793378037227-dexb-wedding": [
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-0",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Venue & Hospitality",
+        "allocatedAmount": 112500,
+        "notes": "Rental, power backup, security"
+      },
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-1",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Catering & Beverages",
+        "allocatedAmount": 135000,
+        "notes": "Full-course dinner, live counters, service staff"
+      },
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-2",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Decoration & Floral",
+        "allocatedAmount": 67500,
+        "notes": "Stage, entrance arches, lighting"
+      },
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-3",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Photography & Video",
+        "allocatedAmount": 45000,
+        "notes": "Candid photographer, cinematic teaser"
+      },
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-4",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Entertainment & DJ",
+        "allocatedAmount": 36000,
+        "notes": "Sound system, artists, MC"
+      },
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-5",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Invitations & Favors",
+        "allocatedAmount": 18000,
+        "notes": "Digital invites, customized guest gifts"
+      },
+      {
+        "id": "bc-plan-evt-user-1793378037227-dexb-wedding-6",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "category": "Miscellaneous & Buffer",
+        "allocatedAmount": 36000,
+        "notes": "Contingency reserve for unexpected costs"
+      }
+    ]
+  },
+  "expenses": {
+    "event-royal-wedding": [
+      {
+        "id": "exp-1",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Palace Venue Booking Advance (50%)",
+        "category": "Venue & Hospitality",
+        "amount": 65000,
+        "date": "2026-10-15",
+        "paymentMethod": "Bank Transfer",
+        "description": "Official confirmation token for heritage lawn booking",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "exp-2",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Master Caterer Tasting & Contract Deposit",
+        "category": "Catering & Bar",
+        "amount": 40000,
+        "date": "2026-10-20",
+        "paymentMethod": "UPI / Online",
+        "description": "Token advance for 250 guest menu",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "exp-3",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Florist Material Deposit",
+        "category": "Decoration & Flowers",
+        "amount": 25000,
+        "date": "2026-10-25",
+        "paymentMethod": "Bank Transfer",
+        "description": "Advance for marigold & rose consignments",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "exp-4",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Cinematographer Retainer Fee",
+        "category": "Photography & Cinema",
+        "amount": 20000,
+        "date": "2026-10-28",
+        "paymentMethod": "Credit Card",
+        "description": "Drone crew & 4K lead camera booking lock",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      }
+    ],
+    "event-superhero-birthday": [
+      {
+        "id": "exp-b1",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "title": "SkyZone Arena 4-Hour Exclusive Hall Booking",
+        "category": "Venue & Games",
+        "amount": 18000,
+        "date": "2026-10-24",
+        "paymentMethod": "Credit Card",
+        "description": "Includes jump socks and party room host",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "exp-b2",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "title": "Custom 3-Tier Avengers Fondant Cake Deposit",
+        "category": "Catering & Cake",
+        "amount": 6000,
+        "date": "2026-10-26",
+        "paymentMethod": "UPI / Online",
+        "description": "Dark chocolate truffle & red velvet filling",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      }
+    ],
+    "evt-user-1793378037227-dexb-wedding": [
+      {
+        "id": "exp-evt-user-1793378037227-dexb-wedding-1",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Palace Venue Booking Advance (50%)",
+        "category": "Venue & Hospitality",
+        "amount": 65000,
+        "date": "2026-10-15",
+        "paymentMethod": "Bank Transfer",
+        "description": "Official confirmation token for heritage lawn booking",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "exp-evt-user-1793378037227-dexb-wedding-2",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Master Caterer Tasting & Contract Deposit",
+        "category": "Catering & Bar",
+        "amount": 40000,
+        "date": "2026-10-20",
+        "paymentMethod": "UPI / Online",
+        "description": "Token advance for 200 guest menu",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "exp-evt-user-1793378037227-dexb-wedding-3",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Florist Material Deposit",
+        "category": "Decoration & Flowers",
+        "amount": 25000,
+        "date": "2026-10-25",
+        "paymentMethod": "Bank Transfer",
+        "description": "Advance for marigold & rose consignments",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "exp-evt-user-1793378037227-dexb-wedding-4",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Cinematographer Retainer Fee",
+        "category": "Photography & Cinema",
+        "amount": 20000,
+        "date": "2026-10-28",
+        "paymentMethod": "Credit Card",
+        "description": "Drone crew & 4K lead camera booking lock",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      }
+    ]
+  },
+  "tasks": {
+    "event-royal-wedding": [
+      {
+        "id": "task-1",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Finalize Palace Venue Booking & Sign Agreement",
+        "category": "Venue",
+        "priority": "Critical",
+        "dueDate": "2026-10-15",
+        "daysBeforeEvent": 44,
+        "isCompleted": true,
+        "notes": "Agreement received and signed with GM.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "task-2",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Conduct Food Tasting & Lock 3-Day Menu",
+        "category": "Catering",
+        "priority": "High",
+        "dueDate": "2026-11-05",
+        "daysBeforeEvent": 23,
+        "isCompleted": false,
+        "notes": "Check vegetarian and gluten-free live counters.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "task-3",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Approve 3D Stage & Mandap Floral Render",
+        "category": "Decor",
+        "priority": "High",
+        "dueDate": "2026-11-10",
+        "daysBeforeEvent": 18,
+        "isCompleted": false,
+        "notes": "Make sure pillars do not block front row guest views.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "task-4",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Send Digital WhatsApp Video Invites & Track RSVPs",
+        "category": "Logistics",
+        "priority": "Critical",
+        "dueDate": "2026-11-08",
+        "daysBeforeEvent": 20,
+        "isCompleted": true,
+        "notes": "Animated invite sent to 200 primary contacts.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "task-5",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Sound & DJ License Clearance with Local Authorities",
+        "category": "Entertainment",
+        "priority": "Medium",
+        "dueDate": "2026-11-20",
+        "daysBeforeEvent": 8,
+        "isCompleted": false,
+        "notes": "Get police NOC for music till 10 PM.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "task-6",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "title": "Final Rehearsal & Vendor Load-in Verification",
+        "category": "Logistics",
+        "priority": "High",
+        "dueDate": "2026-11-27",
+        "daysBeforeEvent": 1,
+        "isCompleted": false,
+        "notes": "Check generator fuel and green room temperature.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      }
+    ],
+    "event-superhero-birthday": [
+      {
+        "id": "task-b1",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "title": "Order superhero customized capes & masks for return favors",
+        "category": "Favors",
+        "priority": "High",
+        "dueDate": "2026-11-02",
+        "daysBeforeEvent": 13,
+        "isCompleted": true,
+        "notes": "45 custom sets ordered with initials.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "task-b2",
+        "eventId": "event-superhero-birthday",
+        "userId": "demo-user-1",
+        "title": "Confirm Magician and Game Host Schedule",
+        "category": "Entertainment",
+        "priority": "Medium",
+        "dueDate": "2026-11-06",
+        "daysBeforeEvent": 9,
+        "isCompleted": false,
+        "notes": "60-minute illusion act + treasure hunt.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      }
+    ],
+    "evt-user-1793378037227-dexb-wedding": [
+      {
+        "id": "tsk-evt-user-1793378037227-dexb-wedding-1",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Finalize Palace Venue Booking & Sign Agreement",
+        "category": "Venue",
+        "priority": "Critical",
+        "dueDate": "2026-10-15",
+        "daysBeforeEvent": 44,
+        "isCompleted": true,
+        "notes": "Agreement received and signed with GM.",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "tsk-evt-user-1793378037227-dexb-wedding-2",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Conduct Food Tasting & Lock 3-Day Menu",
+        "category": "Catering",
+        "priority": "High",
+        "dueDate": "2026-11-05",
+        "daysBeforeEvent": 23,
+        "isCompleted": false,
+        "notes": "Check vegetarian and gluten-free live counters.",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "tsk-evt-user-1793378037227-dexb-wedding-3",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "title": "Approve 3D Stage & Mandap Floral Render",
+        "category": "Decor",
+        "priority": "High",
+        "dueDate": "2026-11-10",
+        "daysBeforeEvent": 18,
+        "isCompleted": false,
+        "notes": "Make sure pillars do not block front row guest views.",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      }
+    ]
+  },
+  "vendors": {
+    "event-royal-wedding": [
+      {
+        "id": "ven-1",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Udaivilas Heritage Lawns",
+        "category": "Event venues",
+        "contact": "+91 294 243 4300",
+        "email": "events@udaivilashaveli.com",
+        "estimatedPrice": 125000,
+        "bookingStatus": "Booked",
+        "paymentStatus": "Advance Paid",
+        "notes": "Includes palace courtyard and 12 luxury bridal rooms.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "ven-2",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Shahi Dawat Royal Caterers",
+        "category": "Caterers",
+        "contact": "+91 98290 11223",
+        "email": "contact@shahidawat.in",
+        "estimatedPrice": 130000,
+        "bookingStatus": "Booked",
+        "paymentStatus": "Advance Paid",
+        "notes": "Providing 10 live cooking stations and traditional servers in Turbans.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "ven-3",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Aura Floral & Production Studio",
+        "category": "Decorators",
+        "contact": "+91 97110 55443",
+        "email": "designs@auradecor.co",
+        "estimatedPrice": 70000,
+        "bookingStatus": "Booked",
+        "paymentStatus": "Advance Paid",
+        "notes": "Using eco-friendly marigolds, fairy lights, and brass props.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "ven-4",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Lumiere Cinema & Photography",
+        "category": "Photographers",
+        "contact": "+91 98991 77665",
+        "email": "lumierefilms@gmail.com",
+        "estimatedPrice": 48000,
+        "bookingStatus": "Shortlisted",
+        "paymentStatus": "Pending",
+        "notes": "Delivering teaser within 48 hours and album within 3 weeks.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "ven-5",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "DJ Varun & Rhythm Beats",
+        "category": "DJs",
+        "contact": "+91 99100 88771",
+        "email": "varun.beats@djmail.com",
+        "estimatedPrice": 30000,
+        "bookingStatus": "Inquiry",
+        "paymentStatus": "Pending",
+        "notes": "Specializes in Bollywood remixes, EDM, and Punjabi dhol beats.",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      }
+    ],
+    "evt-user-1793378037227-dexb-wedding": [
+      {
+        "id": "ven-evt-user-1793378037227-dexb-wedding-1",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "name": "Udaivilas Heritage Lawns",
+        "category": "Event venues",
+        "contact": "+91 294 243 4300",
+        "email": "events@udaivilashaveli.com",
+        "estimatedPrice": 125000,
+        "bookingStatus": "Booked",
+        "paymentStatus": "Advance Paid",
+        "notes": "Includes palace courtyard and 12 luxury bridal rooms.",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "ven-evt-user-1793378037227-dexb-wedding-2",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "name": "Shahi Dawat Royal Caterers",
+        "category": "Caterers",
+        "contact": "+91 98290 11223",
+        "email": "contact@shahidawat.in",
+        "estimatedPrice": 130000,
+        "bookingStatus": "Booked",
+        "paymentStatus": "Advance Paid",
+        "notes": "Providing 10 live cooking stations and traditional servers in Turbans.",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      }
+    ]
+  },
+  "guests": {
+    "event-royal-wedding": [
+      {
+        "id": "gst-1",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Rajesh & Sunita Mehra",
+        "email": "rajesh.mehra@example.com",
+        "phone": "+91 98111 22334",
+        "rsvpStatus": "Confirmed",
+        "attendeesCount": 2,
+        "dietaryPreferences": "Vegetarian",
+        "specialRequirements": "Near front row seating for elderly grandmother",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "gst-2",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Vikram Singhania",
+        "email": "vikram.s@example.com",
+        "phone": "+91 98222 33445",
+        "rsvpStatus": "Confirmed",
+        "attendeesCount": 3,
+        "dietaryPreferences": "Jain Cuisine (No onion, no garlic)",
+        "specialRequirements": "Requires ground floor room accommodation",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "gst-3",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Kavita Kapoor",
+        "email": "kavita.k@example.com",
+        "phone": "+91 98333 44556",
+        "rsvpStatus": "Pending",
+        "attendeesCount": 1,
+        "dietaryPreferences": "Vegan",
+        "specialRequirements": "Arrival at 7 PM",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "gst-4",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Ananya & Siddharth Roy",
+        "email": "sid.roy@example.com",
+        "phone": "+91 98444 55667",
+        "rsvpStatus": "Invited",
+        "attendeesCount": 2,
+        "dietaryPreferences": "Non-Vegetarian",
+        "specialRequirements": "Airport pickup requested",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "gst-5",
+        "eventId": "event-royal-wedding",
+        "userId": "demo-user-1",
+        "name": "Deepak Chawla",
+        "email": "deepak.c@example.com",
+        "phone": "+91 98555 66778",
+        "rsvpStatus": "Declined",
+        "attendeesCount": 0,
+        "dietaryPreferences": "None",
+        "specialRequirements": "Sending gift and wishes from overseas",
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      }
+    ],
+    "evt-user-1793378037227-dexb-wedding": [
+      {
+        "id": "gst-evt-user-1793378037227-dexb-wedding-1",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "name": "Rajesh & Sunita Mehra",
+        "email": "rajesh.mehra@example.com",
+        "phone": "+91 98111 22334",
+        "rsvpStatus": "Confirmed",
+        "attendeesCount": 2,
+        "dietaryPreferences": "Vegetarian",
+        "specialRequirements": "Near front row seating for elderly grandmother",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      },
+      {
+        "id": "gst-evt-user-1793378037227-dexb-wedding-2",
+        "eventId": "evt-user-1793378037227-dexb-wedding",
+        "userId": "user-1793378037227-dexb",
+        "name": "Vikram Singhania",
+        "email": "vikram.s@example.com",
+        "phone": "+91 98222 33445",
+        "rsvpStatus": "Confirmed",
+        "attendeesCount": 3,
+        "dietaryPreferences": "Jain Cuisine (No onion, no garlic)",
+        "specialRequirements": "Requires ground floor room accommodation",
+        "createdAt": "2026-10-30T16:43:12.455Z"
+      }
+    ]
+  },
+  "chats": {
+    "user-1793378037227-dexb": [
+      {
+        "id": "chat-1793378180075-u",
+        "userId": "user-1793378037227-dexb",
+        "sender": "user",
+        "content": "hi",
+        "timestamp": "2026-10-30T16:36:20.075Z"
+      },
+      {
+        "id": "chat-1793378185471-a",
+        "userId": "user-1793378037227-dexb",
+        "sender": "assistant",
+        "content": "Hello there! 👋 Welcome to **EventMate AI**! \n\nWhether you're dreaming up an intimate birthday dinner, a grand wedding, a corporate gala, or a high-energy college fest, I’m here to make planning stress-free, structured, and fun.\n\nTo kick things off and give you tailored advice, could you share a few details?\n\n1. **What type of event are you planning?** *(Wedding, Birthday, Corporate Event, College Fest, Anniversary, etc.)*\n2. **Where and when?** *(City/Location and approximate date or season)*\n3. **How many guests are you expecting?** \n4. **Do you have an estimated budget in mind?** *(e.g., ₹50,000, ₹5 Lakhs, ₹25 Lakhs+)*\n\nIf you don't have all the details yet, no worries at all! Just let me know what's on your mind, and we can start brainstorming together. What are we celebrating? 🎉",
+        "timestamp": "2026-10-30T16:36:25.471Z"
+      }
+    ],
+    "demo-user-1": [
+      {
+        "id": "chat-1793379108021-u",
+        "userId": "demo-user-1",
+        "sender": "user",
+        "content": "Hi EventMate, what are 2 quick tips for a 50-guest party?",
+        "timestamp": "2026-10-30T16:51:48.021Z"
+      },
+      {
+        "id": "chat-1793379110071-a",
+        "userId": "demo-user-1",
+        "sender": "assistant",
+        "content": "Hello there! It’s lovely to meet you. I'm **EventMate AI**, and I am so excited to help you plan your upcoming celebration! \n\nPlanning for 50 guests is the perfect \"sweet spot\"—it’s intimate enough to be meaningful but large enough to create a great atmosphere. Here are two quick, high-impact tips to get you started:\n\n### 1. The \"Grazing Station\" Strategy\nInstead of a traditional, labor-intensive sit-down dinner, opt for a high-quality grazing table or a selection of \"heavy appetizers\" paired with live stations (like a taco bar or live pasta counter). This keeps guests mingling, reduces staffing costs, and creates a more relaxed vibe.\n\n*   **Budget Breakdown (Suggested Allocation for 50 Guests):**\n    *   **Food & Drinks (50%):** ₹35,000 – ₹50,000 (Approx. ₹700–₹1,000 per head).\n    *   **Venue Rental (20%):** ₹15,000 – ₹25,000.\n    *   **Decor & Lighting (15%):** ₹10,000 – ₹15,000.\n    *   **Entertainment/Misc (15%):** ₹10,000 – ₹15,000.\n    *   *Estimated Total Range: ₹70,000 – ₹1,05,000.*\n\n### 2. Designate a \"Social Anchor\"\nFor a 50-person guest list, the flow of energy is everything. Choose one focal point for the room—a photo booth, a DIY cocktail station, or a centerpiece dessert bar. This creates a natural gathering spot, prevents awkward lulls, and gives guests a built-in conversation starter.\n\n***\n\n**Pro-Tip:** Don't forget to send your digital invites at least 3 weeks in advance. Since you have a smaller list, personalized RSVPs via WhatsApp or a simple Google Form will save you so much time tracking headcount!\n\nDo you have a specific date or type of celebration (birthday, anniversary, etc.) in mind? I’d love to help you build a custom checklist!",
+        "timestamp": "2026-10-30T16:51:50.071Z"
+      }
+    ]
+  },
+  "notifications": {
+    "demo-user-1": [
+      {
+        "id": "notif-1",
+        "userId": "demo-user-1",
+        "eventId": "event-royal-wedding",
+        "title": "Food Tasting Approaching",
+        "message": "Your royal wedding catering tasting session is scheduled for Nov 5. Confirm guest counts.",
+        "type": "deadline",
+        "read": true,
+        "createdAt": "2026-10-30T16:30:16.460Z"
+      },
+      {
+        "id": "notif-2",
+        "userId": "demo-user-1",
+        "eventId": "event-royal-wedding",
+        "title": "Budget Status Healthy",
+        "message": "You have utilized ₹1,50,000 out of ₹4,50,000 (33.3%). ₹3,00,000 remaining buffer.",
+        "type": "info",
+        "read": true,
+        "createdAt": "2026-10-30T11:30:16.460Z"
+      },
+      {
+        "id": "notif-3",
+        "userId": "demo-user-1",
+        "eventId": "event-superhero-birthday",
+        "title": "Cake Order Confirmed",
+        "message": "Avengers cake deposit confirmed with SugarCraft Bakery. Delivery scheduled Nov 15 at 3:30 PM.",
+        "type": "success",
+        "read": true,
+        "createdAt": "2026-10-29T16:30:16.460Z"
+      }
+    ],
+    "user-1793378037227-dexb": [
+      {
+        "userId": "user-1793378037227-dexb",
+        "title": "Welcome to Celebration Planner AI!",
+        "message": "Get started by creating your first celebration or exploring AI event planning tools.",
+        "type": "info",
+        "read": true,
+        "id": "notif-1793378037228-w66o",
+        "createdAt": "2026-10-30T16:33:57.228Z"
+      }
+    ]
+  }
+}

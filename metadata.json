@@ -1,0 +1,6 @@
+{
+  "name": "Celebration & Event Planner AI",
+  "description": "GenAI-powered event planning assistant that automatically generates personalized event plans, manages budgets, creates schedules, recommends themes, organizes vendor checklists, and tracks expenses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
